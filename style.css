@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* index.php */
+.login_cont{
+    width: 100%;
+    text-align: center;
+
+}
+#email{
+    width: 300px;
+    margin-bottom: 20px;
+}
+#message{
+    color: red;
+    font-size: 12px;
+}
+#register_btn{
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: default;
+    padding: 3px 5px;
+}
+#register_btn:hover{
+    background-color: #dddddd;
+}
+#register_info{
+    font-weight: bold;
+}
+
+/* register.php */
+#register_form label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-left:-150px;
+}
+#register_form input{
+    width: 300px;
+    margin-bottom: 20px;
+}
+#register_form input[type = 'submit']{
+    width: 200px;
+}
+
+/* admin_ui.php user_ui.php*/
+#container{
+    display: flex;
+}
+#container_btn{
+    display: flex;
+}
+.btn{
+    width: 100%;
+    margin: 2%;
+    font-size: 16px;
+    padding: 4px 0;
+}
+
+/* admin_ui.php and user_ui.php functionalities */
+
+/* magazine.php products.php add_order_form.php */
+.admin_forms{
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+    border: 1px solid #686868;
+    padding-bottom: 30px;
+    height: 400px;
+}
+.admin_forms p{
+    border-bottom: 1px solid #686868;
+    padding-bottom: 16px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.mag_prod_forms *{
+    width: 80%;
+    font-size: 14px;
+    padding: 6px 10px;
+    margin: 10px 0;
+}
+.mag_prod_forms textarea{
+    height: 80px;
+    font-size: 15px;
+}
+.mag_prod_forms input[type = submit], .mag_prod_forms select{
+    width: 87%;
+}
+
+/* show_prod.php */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #0a0a0a;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+table tr:nth-child(1){
+    font-weight: bold;
+}
+  
+table td {
+    text-align: left;
+    border-bottom: 1px solid #c5c5c5;
+    padding: 12px;
+}
+
+/* add_order_form.php */
+#add_order_form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_elem{
+    flex-basis: 33.333%;
+    margin: 20px 0;
+    text-align: center;
+}
+.product_elem label{
+    display: inline-block;
+    margin:6px 0;
+    width:85%;
+}
+.product_elem input[type = "checkbox"]{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.product_elem input[type = "number"]{
+    width: 50px;
+    font-size: 16px;
+}
+#add_order_form input[type = "submit"]{
+    font-size: 16px;
+    width: 66.7%;
+    margin: 20px auto;
+    padding: 6px 0;
+}
+#test{
+    height: auto;
+}
